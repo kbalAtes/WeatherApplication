@@ -1,6 +1,6 @@
 #include "HumiditySensor.h"
 #include <iostream>
-#include<thread>
+#include <pthread.h>
 
 using namespace std;
 
