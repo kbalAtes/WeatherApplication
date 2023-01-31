@@ -1,7 +1,7 @@
 -- premake5.lua
 workspace "WeatherStationApplication"
    configurations { "Debug", "Release" }
-   links {"pthread"}
+   links "pthread"
 
 project "WeatherStationApplication"
    kind "ConsoleApp"
