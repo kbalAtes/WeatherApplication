@@ -1,5 +1,5 @@
 #include <iostream>
-#include <thread>
+#include <pthread.h>
 #include "TempratureSensor.h"
 #include "HumiditySensor.h"
 #include "PressureSensor.h"
