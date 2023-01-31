@@ -7,7 +7,7 @@ project "WeatherStationApplication"
    language "C++"
    targetdir "bin/%{cfg.buildcfg}"
 
-   files { "src/**.h", "src/**.cpp" }
+   files { "src/**.h", "src/**.cpp","src/**.thread" }
 
    filter "configurations:Debug"
       defines { "DEBUG" }
