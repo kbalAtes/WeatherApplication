@@ -1,13 +1,13 @@
 -- premake5.lua
 workspace "WeatherStationApplication"
    configurations { "Debug", "Release" }
-   links "pthread"
+   
 
 project "WeatherStationApplication"
    kind "ConsoleApp"
    language "C++"
    targetdir "bin/%{cfg.buildcfg}"
-
+   links "pthread"
    files { "src/**.h", "src/**.cpp" }
    
    
