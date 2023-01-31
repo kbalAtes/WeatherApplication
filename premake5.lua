@@ -1,6 +1,7 @@
 -- premake5.lua
 workspace "WeatherStationApplication"
    configurations { "Debug", "Release" }
+   links {"pthread"}
 
 project "WeatherStationApplication"
    kind "ConsoleApp"
@@ -9,7 +10,7 @@ project "WeatherStationApplication"
 
    files { "src/**.h", "src/**.cpp" }
    
-   links {"pthread"}
+   
 
    filter "configurations:Debug"
       defines { "DEBUG" }
