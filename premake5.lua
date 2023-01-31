@@ -8,6 +8,8 @@ project "WeatherStationApplication"
    targetdir "bin/%{cfg.buildcfg}"
 
    files { "src/**.h", "src/**.cpp" }
+   
+   links {"pthread"}
 
    filter "configurations:Debug"
       defines { "DEBUG" }
