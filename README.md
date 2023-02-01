@@ -12,12 +12,6 @@ Just Clone the repository and open .sln file with Visual Studio.
 
 ###### Building Using Premake fo Windows
 
- 1-Clone the git repository onto your local storage.
-
-$ cd WeatherApplication
-
-Generate project files by running a command like this one
-
 $ premake5 vs2022
 
 You can see a complete list of the actions and other options supported by a project with the command
