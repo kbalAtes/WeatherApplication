@@ -1,6 +1,6 @@
 #include "TempratureSensor.h"
 
-#include <pthread.h>
+#include <thread>
 
 
 using namespace std;
