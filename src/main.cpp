@@ -1,8 +1,9 @@
 #include <iostream>
-#include <pthread.h>
+
 #include "TempratureSensor.h"
 #include "HumiditySensor.h"
 #include "PressureSensor.h"
+#include <thread>
 
 using namespace std;
 
