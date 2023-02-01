@@ -33,4 +33,6 @@ This command lists all files and folders in active folders.
 
 7- `` ./WeatherApplication ``
 
+Generate project files by running a command like this one
+
 
