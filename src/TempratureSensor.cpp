@@ -1,5 +1,5 @@
 #include "TempratureSensor.h"
-
+#include <iostream>
 #include <thread>
 
 
