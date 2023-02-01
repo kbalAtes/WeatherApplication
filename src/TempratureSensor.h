@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Sensor.h"
+#include "sensor.h"
 
 class TempratureSensor : public Sensor
 {
