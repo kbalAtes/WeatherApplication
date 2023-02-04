@@ -37,9 +37,9 @@ This command lists all files and folders in active folders.
  
 6- ``$ ls``
 
-This command lists all files and folders in active folders.
+7-This command lists all files and folders in active folders.
 
-7- `` ./WeatherApplication ``
+`` ./WeatherApplication ``
 
 Generate project files by running a command like this one
 
